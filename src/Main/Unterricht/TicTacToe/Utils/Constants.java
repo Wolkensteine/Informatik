@@ -5,7 +5,7 @@ import java.awt.Color;
 public class Constants {
 
 	// Colors
-	public static final Color PrimaryColor = new Color();	// TODO create color
-	public static final Color SecondaryColor = new Color();	// TODO create color
+	public static Color PrimaryColor = new Color(238, 238, 238);
+	// public static Color[] SecondaryColors = {new Color(), new Color(), new Color()};	TODO create color
 	
 }
