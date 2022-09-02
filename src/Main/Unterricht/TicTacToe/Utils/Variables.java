@@ -14,4 +14,21 @@ public class Variables {
 	public static JFrame MainWindow;
 	public static JPanel MainPanel;
 	
+	// Play-field
+	public static int[] SmallMatrix = {
+			0,0,0,
+			0,0,0,
+			0,0,0};
+	
+	public static int[] BigMatrix = {
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0};
+	
 }
