@@ -39,4 +39,7 @@ public class Variables {
 			0,0,0,0,0,0,0,0,0,
 			0,0,0,0,0,0,0,0,0};
 	
+	// Bot settings
+	public static int BotDifficulty;
+	
 }
