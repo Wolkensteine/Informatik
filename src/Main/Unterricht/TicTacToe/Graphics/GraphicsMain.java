@@ -7,13 +7,14 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 import Main.Unterricht.TicTacToe.Utils.Constants;
+import Main.Unterricht.TicTacToe.Utils.Logger;
 import Main.Unterricht.TicTacToe.Utils.Variables;
 
 public class GraphicsMain implements Runnable {
 
 	public void run() {
 		
-		System.out.println("Graphics > Main > GraphicsMain thread was started.");
+		Logger.log("TicTacToe > Graphics >", "GraphicsMainThread was started.");
 		
 		// Initialize graphics objects
 		Variables.MainWindow = new MainWindow("Tic Tac Toe", Variables.MainWindowWidth, Variables.MainWindowHeight, false, Constants.PrimaryColor);
@@ -29,7 +30,7 @@ public class GraphicsMain implements Runnable {
 		// At the end make the window visible
 		Variables.MainWindow.setVisible(true);
 		
-		System.out.println("Graphics > Main > GraphicsMain has done it's job.");
+		Logger.log("TicTacToe > Graphics >", "GraphicsMainThread has done it's job.");
 		
 	}
 	
