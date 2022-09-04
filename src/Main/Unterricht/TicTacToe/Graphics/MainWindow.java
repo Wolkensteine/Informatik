@@ -24,6 +24,7 @@ public class MainWindow extends JFrame {
 		// Add a component listener
 		getContentPane().addComponentListener(new ComponentListener() {
 			public void componentShown(ComponentEvent e) {
+				// TODO start refreshing Image again
 			}
 			public void componentResized(ComponentEvent e) {
 				// Listen for resize and change width/height values, after that repaint
