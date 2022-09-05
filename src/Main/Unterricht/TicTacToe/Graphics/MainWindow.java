@@ -21,6 +21,7 @@ public class MainWindow extends JFrame {
 		this.setName(name);
 		this.setSize(width, height);
 		this.getContentPane().setBackground(BackgroundColor);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(visibleOnStartup);
 		this.setLayout(new BorderLayout());
 		
