@@ -1,0 +1,11 @@
+2022-09-05T07:05:09.569616700=> Main > Logger > Created Log file!
+2022-09-05T07:05:09.569616700=> TicTacToe > Main > Starting up ...
+2022-09-05T07:05:09.637550200=> TicTacToe > Main > Started up.
+2022-09-05T07:05:09.638551=> TicTacToe > Graphics > GraphicsMainThread was started.
+2022-09-05T07:05:09.697591=> TicTacToe > Graphics > Creating MainWindow with the following values: name = Tic Tac Toe; width = 1080; height = 720; visibleOnStartup = false; BackgroundColor = java.awt.Color[r=238,g=238,b=238]
+2022-09-05T07:05:09.781690700=> TicTacToe > Graphics > GraphicsMainThread has done it's job.
+2022-09-05T07:24:06.842137=> TicTacToe > Main > Starting up ...
+2022-09-05T07:24:06.904147800=> TicTacToe > Main > Started up.
+2022-09-05T07:24:06.905135900=> TicTacToe > Graphics > GraphicsMainThread was started.
+2022-09-05T07:24:06.956133800=> TicTacToe > Graphics > Creating MainWindow with the following values: name = Tic Tac Toe; width = 1080; height = 720; visibleOnStartup = false; BackgroundColor = java.awt.Color[r=238,g=238,b=238]
+2022-09-05T07:24:07.040647600=> TicTacToe > Graphics > GraphicsMainThread has done it's job.
