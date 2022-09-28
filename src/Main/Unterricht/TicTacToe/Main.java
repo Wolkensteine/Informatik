@@ -2,7 +2,6 @@ package Main.Unterricht.TicTacToe;
 
 import java.awt.EventQueue;
 
-import Main.Unterricht.TicTacToe.Graphics.GraphicsMain;
 import Main.Unterricht.TicTacToe.Utils.Logger;
 import Main.Unterricht.TicTacToe.Utils.SystemInformation;
 import Main.Unterricht.TicTacToe.Utils.Variables;
