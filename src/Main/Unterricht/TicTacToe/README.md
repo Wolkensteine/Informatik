@@ -5,6 +5,7 @@ Die Datenspeicherung wird mit Hilfe von Firebase vonstattengehen. <br>
 Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
 
 ## Dokumentation
+
 <table>
   <thead>
     <tr>
@@ -14,10 +15,15 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
     </tr>
   </thead>
   <tbody>
+  	<tr>
+      <td>vor 28.6.2022</td>
+      <td>Jakob</td>
+      <td>Generelle Einrichtung des Projektes</td>
+    </tr>
     <tr>
       <td>28.6.2022</td>
       <td>Hendrik & Jakob</td>
-      <td></td>
+      <td>Git einrichten für Hendrik & Organisatorisches</td>
     </tr>
   </tbody>
 </table>
