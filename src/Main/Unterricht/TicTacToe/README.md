@@ -4,7 +4,7 @@ Einen Chat für den Online- und lokalen Modus und ein Ranking System für jeden, d
 Die Datenspeicherung wird mit Hilfe von Firebase vonstattengehen. <br>
 Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
 
-## Dokumentation
+## Dokumentation des Arbeitens
 
 <table>
   <thead>
@@ -27,3 +27,6 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
     </tr>
   </tbody>
 </table>
+
+### Hinweise
+Zum Loggen von Dingen bitte immer Logger.log("Pfad", "Aktion"); verwenden!
