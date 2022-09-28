@@ -28,5 +28,5 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
   </tbody>
 </table>
 
-### Hinweise
+### Hinweise für das Programmieren
 Zum Loggen von Dingen bitte immer Logger.log("Pfad", "Aktion"); verwenden!
