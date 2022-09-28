@@ -48,6 +48,8 @@ public class Logger {
 		
 			}
 		
+			return true;
+			
 		} catch (IOException e) {
 			
 			// In case of an error we will print it
@@ -57,7 +59,7 @@ public class Logger {
 			
 		}
 		
-		return true;
+		return false;
 		
 	}
 	
