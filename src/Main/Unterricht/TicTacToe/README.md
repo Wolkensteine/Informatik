@@ -5,3 +5,19 @@ Die Datenspeicherung wird mit Hilfe von Firebase vonstattengehen. <br>
 Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
 
 ## Dokumentation
+<table>
+  <thead>
+    <tr>
+      <th>Datum</th>
+      <th>Person</th>
+      <th>Aktion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>28.6.2022</td>
+      <td>Hendrik & Jakob</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
