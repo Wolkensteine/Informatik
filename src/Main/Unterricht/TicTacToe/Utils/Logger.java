@@ -57,9 +57,9 @@ public class Logger {
 			
 			e.printStackTrace();
 			
+			return false;
+			
 		}
-		
-		return false;
 		
 	}
 	
