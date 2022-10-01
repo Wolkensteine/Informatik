@@ -23,16 +23,16 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
     <tr>
       <td>29+30.9.2022</td>
       <td>Jakob</td>
-      <td>Kleine Ã„nderungen und das Einrichten eines Maven projects, so dass Hendrik Bibliotheken einbinden kann</td>
+      <td>Kleine Änderungen und das Einrichten eines Maven projects, so dass Hendrik Bibliotheken einbinden kann</td>
     </tr>
     <tr>
       <td>1.10.2022</td>
       <td>Jakob</td>
-      <td>Kleine Ã„nderungen am Logger und den READMEs sowie einzelne Tests</td>
+      <td>Kleine Änderungen am Logger und den READMEs sowie einzelne Tests</td>
     </tr>
   </tbody>
 </table>
 
-### Hinweise fÃ¼r das Programmieren
+### Hinweise für das Programmieren
 Zum Loggen von Dingen bitte immer Logger.log("Pfad", "Aktion"); verwenden!<br>
 Please don't upload Logs to the repository outside from issues
