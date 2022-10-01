@@ -16,17 +16,28 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
   </thead>
   <tbody>
   	<tr>
-      <td>vor 28.6.2022</td>
+      <td>vor 28.9.2022</td>
       <td>Jakob</td>
       <td>Generelle Einrichtung des Projektes</td>
     </tr>
     <tr>
-      <td>28.6.2022</td>
+      <td>28.9.2022</td>
       <td>Hendrik & Jakob</td>
       <td>Git einrichten für Hendrik & Organisatorisches</td>
+    </tr>
+    <tr>
+      <td>29+30.9.2022</td>
+      <td>Jakob</td>
+      <td>Kleine Änderungen und das Einrichten eines Maven projects, so dass Hendrik Bibliotheken einbinden kann</td>
+    </tr>
+    <tr>
+      <td>1.10.2022</td>
+      <td>Jakob</td>
+      <td>Kleine Änderungen am Logger und den READMEs</td>
     </tr>
   </tbody>
 </table>
 
 ### Hinweise für das Programmieren
-Zum Loggen von Dingen bitte immer Logger.log("Pfad", "Aktion"); verwenden!
+Zum Loggen von Dingen bitte immer Logger.log("Pfad", "Aktion"); verwenden!<br>
+Please don't upload Logs to the repository outside from issues
