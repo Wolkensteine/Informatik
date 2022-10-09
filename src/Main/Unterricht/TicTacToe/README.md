@@ -30,6 +30,11 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Jakob</td>
       <td>Kleine Änderungen am Logger und den READMEs sowie einzelne Tests</td>
     </tr>
+    <tr>
+      <td>9.10.2022</td>
+      <td>Jakob</td>
+      <td>Erstellung Game Class</td>
+    </tr>
   </tbody>
 </table>
 

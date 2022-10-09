@@ -12,4 +12,20 @@ public class Constants {
 	// Fonts
 	// public static Font PrimaryFont = new Font(); TODO choose font
 
+	public static int[] SmallMatrix = {
+			0,0,0,
+			0,0,0,
+			0,0,0};
+	
+	public static int[] BigMatrix = {
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0,
+			0,0,0,0,0,0,0,0,0};
+	
 }

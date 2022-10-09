@@ -26,23 +26,6 @@ public class Variables {
 	public static int MainWindowWidth = 1080;
 	public static int MainWindowHeight = 720;
 	
-	// Play-fields with different matrixes
-	public static int[] SmallMatrix = {
-			0,0,0,
-			0,0,0,
-			0,0,0};
-	
-	public static int[] BigMatrix = {
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0,
-			0,0,0,0,0,0,0,0,0};
-	
 	// Bot settings
 	public static int BotDifficulty;
 	
