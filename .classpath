@@ -15,5 +15,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/hendrikridder/.m2/repository/com/google/firebase/firebase-admin/9.0.0/firebase-admin-9.0.0.jar" sourcepath="/Users/hendrikridder/.m2/repository/com/google/firebase/firebase-admin/9.0.0/firebase-admin-9.0.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="com.google.firebase"/>
+			<attribute name="maven.artifactId" value="firebase-admin"/>
+			<attribute name="maven.version" value="9.0.0"/>
+			<attribute name="maven.scope" value="runtime"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
