@@ -35,6 +35,21 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Jakob</td>
       <td>Erstellung Game Class</td>
     </tr>
+    <tr>
+      <td>12.10.2022</td>
+      <td>Jakob</td>
+      <td>Weiterarbeiten an game class</td>
+    </tr>
+    <tr>
+      <td>12.10.2022</td>
+      <td>Hendrik</td>
+      <td>Arbeit mit dependencies</td>
+    </tr>
+    <tr>
+      <td>13.10.2022</td>
+      <td>!Achtung!</td>
+      <td>Staging errors auf Hendriks Laptop und dem SchulPC geplantes debugging am 13.10.2022</td>
+    </tr>
   </tbody>
 </table>
 
