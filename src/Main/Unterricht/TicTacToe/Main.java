@@ -12,9 +12,9 @@ public class Main {
 
 		Logger.log("TicTacToe > Main >", "Starting up ...");
 
-		SystemInformation.GetSystemInformation();
+		SystemInformation.GetSystemInformation();	// This outputs a lot of data about the used system.
 
-		EventQueue.invokeLater(Variables.GraphicsMainThread);
+		EventQueue.invokeLater(Variables.GraphicsMainThread);	// This thread is just for graphics
 
 		Logger.log("TicTacToe > Main >", "Started up.");
 
