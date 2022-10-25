@@ -16,7 +16,6 @@ public class Main {
 
 		EventQueue.invokeLater(Variables.GraphicsMainThread);	// This thread is just for graphics
 
-		
 		Logger.log("TicTacToe > Main >", "Started up.");
 
 	}
