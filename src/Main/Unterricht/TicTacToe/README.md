@@ -50,6 +50,11 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>!Achtung!</td>
       <td>Staging errors auf Hendriks Laptop und dem SchulPC geplantes debugging am 13.10.2022</td>
     </tr>
+    <tr>
+      <td>05.11.2022</td>
+      <td>Jakob</td>
+      <td>Settings & Assets</td>
+    </tr>
   </tbody>
 </table>
 
