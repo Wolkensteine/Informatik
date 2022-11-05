@@ -21,12 +21,18 @@ Seid ihr neu zu [GitHub](https://github.com)? Braucht ihr noch hilfe beim erstel
 ## Erstes Repository
 Du hast schon einen GitHub-Account oder diesen gerade erstellt? Dann mache hier weiter. Ein Repository ist eine Ablage für Dateien. Du kannst auch Diskussionen bereitstellen. <br>
 In Repositories speicherst und bearbeitest du Code oder andere Dateien. Du hast ein Limit, was du hochladen kannst. Dies liegt bei dem kostenfreien Plan bei 500MB. <br>
-1. Drücke auf "Create new repository", wenn du gerade deinen Account erstellt hast. Ansonsten gehe in den Repositories Tab und drücke auf "New"<br>
-2. Gib dem repository einen Namen und eine Beschreibung.<br>
-3. Alles was du nicht jedem zeigen willst, solltest du auf Privat stellen.<br>
-4. Wähle das Kästchen bei "add Readme" aus. Dann wird automatisch die Beschreibung in einer Datei hinzugefügt.<br>
-5. (optional) wenn du dein Projekt veröffentlichen willst rate ich dir eine Lizens hinzuzufügen. Sonst könnte jeder alles klauen und bei großen Projekten kann das doof sein.
-
+Wenn ihr auf euer Profil geht (https://github.com/<euer Benutzername>) habt ihr einen Tab "Repositories". Wenn ihr auf diesen geht, seht ihr alle eure Repositories und könnt auch neue erstellen. Dazu geht man auf "New" oder wenn euer Browser auf Deutsch eingestellt ist entsprechend auf "Neu".<br>
+[Im Bild seht ihr auch, dass ich einige meiner Repositories mit einem Stern markiert habe. Diese könnt ihr in einem anderen Tab ansehen und dienen zum Markieren von Repositories, die ihr mögt oder häufig verwendet. Diese Sterne könnt ihr auf jedes Repository vergeben. Probiert das doch mal aus, indem ihr diesem Repository einen Stern gebt.]
+<div align="center">
+	<img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221105_143825.png" alt="Bild" \>
+</div>
+In dem folgenden Bild seht ihr, wie sich ein Repository beim Besuchen des Eigentümers aussieht. 
+<div align="center">
+        <img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221105_144852.png" alt="Bild" \>
+</div>
+Unter "Add file" könnt ihr Dateien hochladen oder dateien erstellen. "Go to file" hilft beim navigieren und lässt dich von jeder Position im Dateisystem zu jedem anderen Punkt springen. Bei dem Punkt "Code" könnt ihr das Repository herunterladen, clonen etc. <br>
+Wenn ihr dateien Bearbeitet (Klick auf den Dateinamen und dann auf den Stift um in den Bearbeitungsmodus zu gelangen) müsst ihr daran denken am Ende alles zu speichern. Das heißt auf GitHub "commit", das kommt von Git einer Software auf der GitHub basiert. Ihr könnt einen Titel und eine Beschreibung festlegen, damit andere nachverfolgen können, was in dem commit gemacht wurde. Ihr könnt direkt zum main branch committen oder zu einem anderen (oder neu erstellten). Das ist allerdings nur sinnvoll für große änderungen oder zum überprüfen von code durch andere, weswegen ich dies hier nicht weiter beschreibe.
+	
 ## README.md
 Readme.md-Dateien sind Beschreibungs-Dateien. Diese sind in einer Markdown-Sprache geschrieben. Diese implementiert einige Dinge aus HTML mit einfachem Plaintext und anderen beschreibenden Argumenten.<br>
 So hat man auch hier 6 verschiedene Überschriftsgrößen, die man jewails mit einem bis zu sechs '#'-Zeichen beginnt.<br>
