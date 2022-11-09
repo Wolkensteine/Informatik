@@ -7,15 +7,19 @@ import org.springframwork.stereotype.Service;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOption;
 
+import com.
 @Service
 public class FirebaseInitialization {
-	FileInputStream serviceAccount =
-			  new FileInputStream("./ServiceAcount.json");
+	public void initialize() {
+		
+		FileInputStream serviceAccount =
+		  new FileInputStream("./serviceAccount.json");
+		
+		FirebaseOptions options = new FirebaseOptions.Builder()
+		  .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+		  .build();
+		
+		FirebaseApp.initializeApp(options);
 
-	FirebaseOptions options = new FirebaseOptions.Builder()
-	  .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-	  .setDatabaseUrl("https://tik-tak-toe-d7352.firebaseio.com")
-	  .build();
-
-	FirebaseApp.initializeApp(options);
+	}
 }
