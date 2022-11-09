@@ -55,6 +55,16 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Jakob</td>
       <td>Settings & Assets</td>
     </tr>
+    <tr>
+      <td>09.11.2022</td>
+      <td>Jakob</td>
+      <td>Fixing bugs</td>
+    </tr>
+    <tr>
+      <td>09.11.2022</td>
+      <td>Hendrik</td>
+      <td>More firebase shit</td>
+    </tr>
   </tbody>
 </table>
 
