@@ -7,6 +7,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import Main.Unterricht.TicTacToe.Game;
 import Main.Unterricht.TicTacToe.Graphics.GraphicsMain;
 
 // !IMPORTANT Please DO NOT autoformat this file!
@@ -28,5 +29,7 @@ public class Variables {
 	
 	// Bot settings
 	public static int BotDifficulty;
+	
+	public static Game game; // game instance (this will be modified everytime a game starts -> This should happen by an interaction listener)
 	
 }
