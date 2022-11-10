@@ -16,55 +16,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/hendrikridder/.m2/repository/com/google/firebase/firebase-admin/9.0.0/firebase-admin-9.0.0.jar" sourcepath="/Users/hendrikridder/.m2/repository/com/google/firebase/firebase-admin/9.0.0/firebase-admin-9.0.0-sources.jar">
-		<attributes>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.google.firebase"/>
-			<attribute name="maven.artifactId" value="firebase-admin"/>
-			<attribute name="maven.version" value="9.0.0"/>
-			<attribute name="maven.scope" value="runtime"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/hendrikridder/.m2/repository/com/google/cloud/google-cloud-core/2.7.1/google-cloud-core-2.7.1.jar" sourcepath="/Users/hendrikridder/.m2/repository/com/google/cloud/google-cloud-core/2.7.1/google-cloud-core-2.7.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="com.google.cloud"/>
-			<attribute name="maven.artifactId" value="google-cloud-core"/>
-			<attribute name="maven.version" value="2.7.1"/>
-			<attribute name="maven.scope" value="runtime"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/hendrikridder/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar" sourcepath="/Users/hendrikridder/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="com.google.guava"/>
-			<attribute name="maven.artifactId" value="guava"/>
-			<attribute name="maven.version" value="31.1-jre"/>
-			<attribute name="maven.scope" value="runtime"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/hendrikridder/.m2/repository/com/google/protobuf/protobuf-java/3.20.1/protobuf-java-3.20.1.jar" sourcepath="/Users/hendrikridder/.m2/repository/com/google/protobuf/protobuf-java/3.20.1/protobuf-java-3.20.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="com.google.protobuf"/>
-			<attribute name="maven.artifactId" value="protobuf-java"/>
-			<attribute name="maven.version" value="3.20.1"/>
-			<attribute name="maven.scope" value="runtime"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/hendrikridder/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.8.3/proto-google-common-protos-2.8.3.jar" sourcepath="/Users/hendrikridder/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.8.3/proto-google-common-protos-2.8.3-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="com.google.api.grpc"/>
-			<attribute name="maven.artifactId" value="proto-google-common-protos"/>
-			<attribute name="maven.version" value="2.8.3"/>
-			<attribute name="maven.scope" value="runtime"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

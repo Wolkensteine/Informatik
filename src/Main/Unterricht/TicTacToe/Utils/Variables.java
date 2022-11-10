@@ -20,7 +20,8 @@ public class Variables {
 	// MainWindow
 	public static JFrame MainWindow;
 	public static JPanel MainPanel;						// MainPanel for the game and Menu etc
-	public static JPanel ChatPanel;						// Panel for the online chat
+	public static JPanel ChatPanel;						// Panel for the online chat region
+	public static JPanel ChatTextPanel;					// Holder for the Text of the chat for scrollpane
 	public static JTextArea ChatTextArea; 				// TextArea for other messages
 	public static JTextField ChatTextField; 			// TextField for inputs
 	public static JScrollPane ChatTextAreaScrollPane;	// This is there so you can scroll through your chat messages
