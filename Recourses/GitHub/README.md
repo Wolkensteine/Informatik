@@ -46,6 +46,9 @@ Unter "Add file" könnt ihr Dateien hochladen oder dateien erstellen. "Go to fil
         <img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221111_175037.png" alt="Bild" \>
 </div>
 Wenn ihr dateien Bearbeitet (Klick auf den Dateinamen und dann auf den Stift um in den Bearbeitungsmodus zu gelangen) müsst ihr daran denken am Ende alles zu speichern. Das heißt auf GitHub "commit", das kommt von Git einer Software auf der GitHub basiert. Ihr könnt einen Titel und eine Beschreibung festlegen, damit andere nachverfolgen können, was in dem commit gemacht wurde. Ihr könnt direkt zum main branch committen oder zu einem anderen (oder neu erstellten). Das ist allerdings nur sinnvoll für große änderungen oder zum überprüfen von code durch andere, weswegen ich dies hier nicht weiter beschreibe.
+<div align="center">
+        <img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221111_175709.png" alt="Bild" \>
+</div>
 <br><br>	
 ## README.md
 Readme.md-Dateien sind Beschreibungs-Dateien. Diese sind in einer Markdown-Sprache geschrieben. Diese implementiert einige Dinge aus HTML mit einfachem Plaintext und anderen beschreibenden Argumenten.<br>
