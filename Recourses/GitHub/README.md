@@ -77,5 +77,10 @@ Ihr könnt euren Posts Themen hinzufügen und andere Posts nach Tags filtern.
 	
 Wikis sind beschreibungen eines Projektes direkt in dem Repository. Sie lassen sich in dem Tab Insights erstellen und erscheinen danach als eigener Tab. Hier kannst du Dokumentationen zu deinem Projekt hochladen. Dies ist ein feature, das man am besten nur dann nutzt, wenn man eine große Community hat und sich nicht um jedes kleine Problem kümmern kann.
 <br><br><br>
+Auf deinem Profil kannst du übrigens auch sehen, wie viel du in letzter Zeit gemacht hast (kann man ausschalten wenn man das will).
+<div align="center">
+	<img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221111_180234.png" alt="Bild"\>	
+</div>
+<br><br><br>
 ### Autor
 [@Wolkensteine](https://github.com/Wolkensteine)
