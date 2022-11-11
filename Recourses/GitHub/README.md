@@ -85,7 +85,8 @@ Wikis sind beschreibungen eines Projektes direkt in dem Repository. Sie lassen s
 Auf deinem Profil kannst du übrigens auch sehen, wie viel du in letzter Zeit gemacht hast (kann man ausschalten wenn man das will).
 <div align="center">
 	<img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221111_180234.png" alt="Bild"\>	
-</div>
+</div><br>
+[GutHub pages] (https://docs.github.com/en/pages) ist eine tolle möglichkeit seine eigene Website zu hosten. Hier rate ich einfach die Docs zu lesen und zur Not in discussions zu Fragen. 
 <br><br><br>
 ### Autor
 [@Wolkensteine](https://github.com/Wolkensteine)
