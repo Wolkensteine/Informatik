@@ -29,12 +29,13 @@ Du hast schon einen GitHub-Account oder diesen gerade erstellt? Dann mache hier 
 In Repositories speicherst und bearbeitest du Code oder andere Dateien. Du hast ein Limit, was du hochladen kannst. Dies liegt bei dem kostenfreien Plan bei 500MB. <br>
 <div align="center">
         <img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221111_174826.png" alt="Bild" \>
+</div>
 Wenn ihr auf euer Profil geht (https://github.com/<euer Benutzername>) habt ihr einen Tab "Repositories". Wenn ihr auf diesen geht, seht ihr alle eure Repositories und könnt auch neue erstellen. Dazu geht man auf "New" oder wenn euer Browser auf Deutsch eingestellt ist entsprechend auf "Neu".<br>
 [Im Bild seht ihr auch, dass ich einige meiner Repositories mit einem Stern markiert habe. Diese könnt ihr in einem anderen Tab ansehen und dienen zum Markieren von Repositories, die ihr mögt oder häufig verwendet. Diese Sterne könnt ihr auf jedes Repository vergeben. Probiert das doch mal aus, indem ihr diesem Repository einen Stern gebt.]
 <div align="center">
 	<img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221105_143825.png" alt="Bild" \>
 </div>
-In dem folgenden Bild seht ihr, wie sich ein Repository beim Besuchen des Eigentümers aussieht. 
+In dem folgenden Bild seht ihr, wie sich ein Repository beim Besuchen des Eigentümers aussieht. <br>
 <div align="center">
         <img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221105_144852.png" alt="Bild" \>
 </div>
@@ -45,7 +46,7 @@ Unter "Add file" könnt ihr Dateien hochladen oder dateien erstellen. "Go to fil
 <div align="center">
         <img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221111_175037.png" alt="Bild" \>
 </div>
-Wenn ihr dateien Bearbeitet (Klick auf den Dateinamen und dann auf den Stift um in den Bearbeitungsmodus zu gelangen) müsst ihr daran denken am Ende alles zu speichern. Das heißt auf GitHub "commit", das kommt von Git einer Software auf der GitHub basiert. Ihr könnt einen Titel und eine Beschreibung festlegen, damit andere nachverfolgen können, was in dem commit gemacht wurde. Ihr könnt direkt zum main branch committen oder zu einem anderen (oder neu erstellten). Das ist allerdings nur sinnvoll für große änderungen oder zum überprüfen von code durch andere, weswegen ich dies hier nicht weiter beschreibe.
+Wenn ihr dateien Bearbeitet (Klick auf den Dateinamen und dann auf den Stift um in den Bearbeitungsmodus zu gelangen) müsst ihr daran denken am Ende alles zu speichern. Das heißt auf GitHub "commit", das kommt von Git einer Software auf der GitHub basiert. Ihr könnt einen Titel und eine Beschreibung festlegen, damit andere nachverfolgen können, was in dem commit gemacht wurde. Ihr könnt direkt zum main branch committen oder zu einem anderen (oder neu erstellten). Das ist allerdings nur sinnvoll für große änderungen oder zum überprüfen von code durch andere, weswegen ich dies hier nicht weiter beschreibe.<br>
 <div align="center">
         <img src="https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Screenshot_20221111_175709.png" alt="Bild" \>
 </div>
