@@ -1,5 +1,5 @@
 package Main.Unterricht.TicTacToe.Logic.Server.Online;
-
+/*
 import java.io.FileInputStream;
 
 import org.springframwork.stereotype.Service;
@@ -23,3 +23,4 @@ public class FirebaseInitialization {
 
 	}
 }
+*/

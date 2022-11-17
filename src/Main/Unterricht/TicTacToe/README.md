@@ -75,6 +75,16 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Hendrik</td>
       <td>Still trying to implement Firebase</td>
     </tr>
+    <tr>
+      <td>17.11.2022</td>
+      <td>Jakob</td>
+      <td>organisation + umstrukturierung + entfernen von Firebase dependencies</td>
+    </tr>
+    <tr>
+      <td>17.11.2022</td>
+      <td>Hendrik</td>
+      <td>Gibt firebase auf - wird frontend übernehmen</td>
+    </tr>
   </tbody>
 </table>
 

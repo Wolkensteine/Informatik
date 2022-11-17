@@ -1,9 +1,5 @@
 # GitHub Hilfe
 Seid ihr neu zu [GitHub](https://github.com)? Braucht ihr noch hilfe beim erstellen und managen von Repositories? Dann habe ich hier eine kleine Anleitung für euch, die euch alles wichtiges über [GitHub](https://github.com) beibringt.<br><br>
-<br><br>
-<div align="center">
-  <img src='https://github.com/Wolkensteine/Wolkensteine/blob/main/WolkensteineIcon.png' alt='Logo' width='50%'>
-</div>
 <br><br><br>
 
 ## Registration
