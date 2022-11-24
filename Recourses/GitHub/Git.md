@@ -1,0 +1,2 @@
+# Git
+[Git](https://git-scm.com/) ist eine Software, die die Zusammenarbeit mit anderen ermöglicht. [GitHub](https://github.com) ist [Microsoft](https://microsoft.com)'s kostenloses Angebot seine [Git](https://git-scm.com/)-repositories online bereitszustellen.<br>
