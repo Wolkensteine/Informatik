@@ -38,9 +38,14 @@ public class Bot {
 		switch (Game.GameMatrixSize) {
 		case 0: {
 			size = 9;
+			break;
 		}
 		case 1: {
 			size = 81;
+			break;
+		}
+		default: {
+			break;
 		}
 		}
 		
@@ -54,7 +59,22 @@ public class Bot {
 			place = 1 + (int)(Math.random() * (size - 1));
 		} else {
 			// Do a thoughtful place
-			
+			switch (BotDifficulty) {
+			case 0: {
+				break;
+			}
+			case 1: {
+				break;
+			}
+			case 2: {
+				break;
+			}
+			case 3: {
+				break;
+			}
+			default:
+				break;
+			}
 		}
 		
 		return place;

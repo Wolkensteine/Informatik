@@ -14,16 +14,22 @@ public class BotThread implements Runnable {
 		switch (Variables.BotDifficulty) {
 		case 0: { // Easy
 			Logger.log("Bot > Difficulty >", "Difficulty is set to: EASY");
+			break;
 		}
 		case 1: { // Normal
 			Logger.log("Bot > Difficulty >", "Difficulty is set to: NORMAL");
+			break;
 		}
 		case 2: { // Hard
 			Logger.log("Bot > Difficulty >", "Difficulty is set to: HARD");
+			break;
 		}
 		case 3: { // Impossible
 			Logger.log("Bot > Difficulty >", "Difficulty is set to: IMPOSSIBLE");
+			break;
 		}
+		default:
+			break;
 		}
 
 		Logger.log("Bot > MatrixSize >", "Creating bot ...");
