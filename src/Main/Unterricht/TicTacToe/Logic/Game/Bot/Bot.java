@@ -3,6 +3,7 @@ package Main.Unterricht.TicTacToe.Logic.Game.Bot;
 import java.util.Random;
 
 import Main.Unterricht.TicTacToe.Game;
+import Main.Unterricht.TicTacToe.Logic.Game.PlayerInteractions.Symbol;
 import Main.Unterricht.TicTacToe.Utils.Logger;
 import Main.Unterricht.TicTacToe.Utils.Variables;
 
@@ -33,7 +34,7 @@ public class Bot {
 	}
 
 	// This method is there for deciding what the bot will do next
-	public static int BotMove() {
+	public static BotMove() {
 		
 		switch (Game.GameMatrixSize) {
 		case 0: {
@@ -78,7 +79,7 @@ public class Bot {
 			}
 		}
 		
-		return place;
+		Symbol.PlaceSymbol(place, 2);
 		
 	}
 
