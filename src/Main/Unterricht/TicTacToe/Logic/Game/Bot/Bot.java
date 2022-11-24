@@ -58,7 +58,8 @@ public class Bot {
 			// Do a random placing
 			place = 1 + (int)(Math.random() * (size - 1));
 		} else {
-			// Do a thoughtful place
+			// Do a 'thoughtful'* place
+			// *Depending on the BotDifficulty
 			switch (BotDifficulty) {
 			case 0: {
 				break;
