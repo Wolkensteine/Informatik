@@ -1,2 +1,2 @@
 # Repositories
-Repositories sind Ablagebereiche für Code.
+Repositories sind Ablagebereiche für Code. Repositories kann man mit der Software [Git](https://github.com/Wolkensteine/Informatik/blob/main/Recourses/GitHub/Git.md) erstellen oder synchronisieren.
