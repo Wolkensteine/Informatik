@@ -24,26 +24,11 @@ public class BotThread implements Runnable {
 		case 3: { // Impossible
 			Logger.log("Bot > Difficulty >", "Difficulty is set to: IMPOSSIBLE");
 		}
-		default:
-			throw new IllegalArgumentException("Bot > Difficulty > Unexpected value: " + Variables.BotDifficulty);
 		}
 
-	}
-
-	public void Bot(int MatrixSize) {
-
-		switch (MatrixSize) {
-		case 1: {
-			Logger.log("Bot > MatrixSize >", "Size is set to: Small");
-			CurrentBot = new Bot(Variables.BotDifficulty, MatrixSize);
-		}
-		case 2: {
-			Logger.log("Bot > MatrixSize >", "Size is set to: Big");
-		}
-		default:
-			throw new IllegalArgumentException("Bot > MatrixSize > Unexpected value: " + MatrixSize);
-		}
-
+		Logger.log("Bot > MatrixSize >", "Creating bot ...");
+		CurrentBot = new Bot(Variables.BotDifficulty);
+		
 	}
 
 }

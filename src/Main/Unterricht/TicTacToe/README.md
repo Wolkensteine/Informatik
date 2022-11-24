@@ -85,6 +85,11 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Hendrik</td>
       <td>Gibt firebase auf - wird frontend übernehmen</td>
     </tr>
+    <tr>
+      <td>24.11.2022</td>
+      <td>Jakob</td>
+      <td>Klausur + Botlogic</td>
+    </tr>
   </tbody>
 </table>
 
