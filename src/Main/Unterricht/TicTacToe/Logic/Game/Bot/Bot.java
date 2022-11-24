@@ -34,7 +34,7 @@ public class Bot {
 	}
 
 	// This method is there for deciding what the bot will do next
-	public static BotMove() {
+	public static void BotMove() {
 		
 		switch (Game.GameMatrixSize) {
 		case 0: {
