@@ -3,4 +3,4 @@
 Die Software [Git](https://git-scm.com/) ist ein Tool für die Kommandozeile, es ermöglicht einem Dateien und Ordner zu einem Repository hinzuzufügen und dieses dann mit anderen, beispielsweise über einen Server oder einen Host wie [GitHub](https://github.com) oder [GitLab](https://about.gitlab.com/), zu synchronisieren.<br><br><br>
 #### Links:<br><br>
 [Offizielle Git Dokumentation](https://git-scm.com/docs/git/de)<br><br>
-Author: [#Wolkensteine](https://gitHub.com/Wolkensteine)
+Author: [@Wolkensteine](https://gitHub.com/Wolkensteine)
