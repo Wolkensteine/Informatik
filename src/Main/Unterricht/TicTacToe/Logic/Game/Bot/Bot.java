@@ -1,5 +1,7 @@
 package Main.Unterricht.TicTacToe.Logic.Game.Bot;
 
+import java.util.Random;
+
 import Main.Unterricht.TicTacToe.Game;
 import Main.Unterricht.TicTacToe.Utils.Logger;
 import Main.Unterricht.TicTacToe.Utils.Variables;
@@ -49,8 +51,10 @@ public class Bot {
 		}
 		if (NumberOfThings == 0) {
 			// Do a random placing
+			place = 1 + (int)(Math.random() * (size - 1));
 		} else {
 			// Do a thoughtful place
+			
 		}
 		
 		return place;
