@@ -90,6 +90,11 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Jakob</td>
       <td>Klausur + Botlogic</td>
     </tr>
+    <tr>
+      <td>24.11.2022</td>
+      <td>Hendrik</td>
+      <td>Klausur</td>
+    </tr>
   </tbody>
 </table>
 
