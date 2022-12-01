@@ -22,4 +22,19 @@ i: Ich habe Github und meinen Browser auf Englisch eingestellt.<br>
  18. Wähle unter dem Punkt Git "Git repositories" und "Git Staging".<br>
  19. Links unten siehst du nun einen Bereich "Git repositories".<br>
  20. Dort kannst du die Option "clone git repository" wählen, um ein bestehendes Repository auf GitHub zu clonen. Später kannst du das selbe mit einem Rechtsklick und der gleichnamigen untermenu Wahl erreichen.<br>
- 21. 
+ 21. Kopiere den .git Link, den du bei einem Repositorie unter dem Punkt "Code" kopieren kannst. <br>
+ 22. Diesen fügst du in Eclipse in das Fach "URI" ein.<br>
+ 23. Nun gibst du deinen Nutzernamen (unter Username) und den vorher generierten Schlüssel (unter Password) an.<br>
+ 24. Drücke "next".<br>
+ 25. Drücke "next".<br>
+ 26. Drücke Finish.<br>
+ 27. Jetzt siehst du dein Repository unten links in Eclipse. Mache einen Rechtsklick.<br>
+ 28. Wähle import projects, um das Repository als Java Projekt zu importieren.<br>
+ 29. Wähle "fetch from main" um deine Lokale Kopie des Repositories zu updaten.<br>
+ 30. Nun kannst du beginnen Dinge zu bearbeiten. Unter git Staging kannst du Änderungen commiten und pushen.<br><br><br>
+ 
+## Du willst ein bereits bestehendes Projekt auf GitHub hochladen?
+ 1. Zunächst erstelle ein lehres Repository in der GitHub WebUI.
+ 2. Dort lädst du dein bestehendes Projekt hoch.
+ 3. Importiere nun wie oben beschrieben dein neues Repository.
+ 
