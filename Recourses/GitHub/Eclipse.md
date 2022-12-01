@@ -14,8 +14,12 @@ i: Ich habe Github und meinen Browser auf Englisch eingestellt.<br>
  10. Gebe einen Namen für den Token unter "Note" ein.<br>
  11. Setze nun ein Ablaufsdatum. Ich empfehle es auf 30 Tagen zu belassen, wenn man viel mit seinem Account macht. <br>
  12. Wenn du dir nicht sicher bist, was für Rechte du später vielleicht benutzen wirst wähle alles aus. Ansonsten wähle am besten nur das, was du benötigst.<br>
- 13. Drücke "Generate token"
- 14. Lasse den Tab geöffnet und starte Eclipse.
- 15. Wenn Eclipse gestartet wurde gehe oben Links auf den Tab "Window".
- 16. Wähle "Show view"
- 17. Drücke auf "Other..."
+ 13. Drücke "Generate token"<br>
+ 14. Lasse den Tab geöffnet und starte Eclipse.<br>
+ 15. Wenn Eclipse gestartet wurde gehe oben Links auf den Tab "Window".<br>
+ 16. Wähle "Show view"<br>
+ 17. Drücke auf "Other..."<br>
+ 18. Wähle unter dem Punkt Git "Git repositories" und "Git Staging".<br>
+ 19. Links unten siehst du nun einen Bereich "Git repositories".<br>
+ 20. Dort kannst du die Option "clone git repository" wählen, um ein bestehendes Repository auf GitHub zu clonen. Später kannst du das selbe mit einem Rechtsklick und der gleichnamigen untermenu Wahl erreichen.<br>
+ 21. 
