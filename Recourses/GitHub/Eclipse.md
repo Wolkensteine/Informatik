@@ -1,0 +1,21 @@
+# Eclipse und Git
+Eclipse hat einen eingebauten GitManager. Dieser implementiert die Funktionen des Git-Command-Line-Tool direkt in der populären open source Java IDE. Ich möchte euch hier einmal erklären, wie man Git mit Eclipse nutzen kann.<br><br>
+Zunächst müsst ihr einen Access key für euren GitHub Account einrichten. Diesen benötigt ihr zur Authentifizierung von Eclipse.<br><br>
+i: Ich habe Github und meinen Browser auf Englisch eingestellt.<br>
+ 1. Öffnet [github.com](https://github.com)<br>
+ 2. Klickt oben rechts auf euer Profil Icon.<br>
+ 3. Wähle Settings/Einstellungen<br>
+ 4. Gehe auf den letzten Punkt (Developer Settings)<br>
+ 5. Gehe hier auf den untersten Reiter (Personal access tokens)<br>
+ 6. Wähle "Tokens (Classic)"<br>
+ 7. Wähle die Option "Generate new token" aus.<br>
+ 8. Dort wählst du die classische Token Version.<br>
+ 9. Bestätige nun dein Passwort<br>
+ 10. Gebe einen Namen für den Token unter "Note" ein.<br>
+ 11. Setze nun ein Ablaufsdatum. Ich empfehle es auf 30 Tagen zu belassen, wenn man viel mit seinem Account macht. <br>
+ 12. Wenn du dir nicht sicher bist, was für Rechte du später vielleicht benutzen wirst wähle alles aus. Ansonsten wähle am besten nur das, was du benötigst.<br>
+ 13. Drücke "Generate token"
+ 14. Lasse den Tab geöffnet und starte Eclipse.
+ 15. Wenn Eclipse gestartet wurde gehe oben Links auf den Tab "Window".
+ 16. Wähle "Show view"
+ 17. Drücke auf "Other..."
