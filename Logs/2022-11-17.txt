@@ -1,6 +1,0 @@
-2022-11-17T10:10:14.881=> Main > Logger > Created Log file!
-2022-11-17T10:10:14.881=> TicTacToe > Main > Starting up ...
-2022-11-17T10:10:15.068=> TicTacToe > Graphics > GraphicsMainThread was started.
-2022-11-17T10:10:15.068=> TicTacToe > Main > Started up.
-2022-11-17T10:10:15.160=> TicTacToe > Graphics > Creating MainWindow with the following values: name = Tic Tac Toe; width = 1080; height = 720; visibleOnStartup = false; BackgroundColor = java.awt.Color[r=238,g=238,b=238]
-2022-11-17T10:10:15.487=> TicTacToe > Graphics > GraphicsMainThread has done it's job.
