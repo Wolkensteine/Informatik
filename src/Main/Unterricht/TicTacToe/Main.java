@@ -9,7 +9,7 @@ import Main.Unterricht.TicTacToe.Utils.Variables;
 public class Main {
 
 	public static void main(String[] args) {
-
+		
 		Logger.log("TicTacToe > Main >", "Starting up ...");
 
 		SystemInformation.GetSystemInformation();	// This outputs a lot of data about the used system.
