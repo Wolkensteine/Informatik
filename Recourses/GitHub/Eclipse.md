@@ -41,6 +41,5 @@ i: Ich habe Github und meinen Browser auf Englisch eingestellt.<br>
      3. Dort findest du den Ort, wo das Projekt gespeichert ist. Öffne diesen Ort im File-Explorer.
      4. Drag and drop den Inhalt des Projektordners (Du musst diesen zunächst betreten) in dein GitHub Repository.
      5. Commite die Dateien.
-     6. Update deine Kopie des GitHub Repositories.
  3. Importiere nun wie oben beschrieben dein neues Repository.
  
