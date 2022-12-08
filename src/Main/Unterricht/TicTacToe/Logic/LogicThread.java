@@ -9,8 +9,6 @@ public class LogicThread implements Runnable {
 
 		Logger.log("Main > Logic", "Logic Thread was called.");
 		
-		Settings.load();
-		
 		Logger.log("Main > Logic", "Logic Thread done.");
 		
 	}
