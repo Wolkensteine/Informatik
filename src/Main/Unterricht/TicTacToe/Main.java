@@ -15,11 +15,11 @@ public class Main {
 
 		Settings.load(); // Load the settings
 		
-		if (Variables.SystemInfo) { // Check if system infos should be logged
-			SystemInformation.GetSystemInformation();	// This outputs a lot of data about the used system.
+		if (Variables.SystemInfo) { 							// Check if system infos should be logged
+			SystemInformation.GetSystemInformation();			// This outputs a lot of data about the used system.
 		}
 		
-		EventQueue.invokeLater(Variables.LogicMainThread);
+		EventQueue.invokeLater(Variables.LogicMainThread);		// Start logic thread
 		
 		EventQueue.invokeLater(Variables.GraphicsMainThread);	// This thread is just for graphics
 

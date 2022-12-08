@@ -36,6 +36,8 @@ public class Variables {
 	// Bot settings
 	public static int BotDifficulty;
 	
+	// game class
+	// This will be set every game that is started
 	public static Game game; // game instance (this will be modified everytime a game starts -> This should happen by an interaction listener)
 	
 }

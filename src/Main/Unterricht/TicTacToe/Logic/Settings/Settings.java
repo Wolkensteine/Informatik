@@ -12,10 +12,11 @@ public class Settings {
 
 		Logger.log("Main > Settings", "Loading settings ...");
 		
+		// Try to load file
 		try {
 			File myObj = new File("main.cfg");
 			Scanner myReader = new Scanner(myObj);
-			while (myReader.hasNextLine()) {
+			while (myReader.hasNextLine()) { // Update the configs one line after another
 				String data = myReader.nextLine();
 				Logger.log("Main > Settings > main.cfg", data);
 				update(data);
@@ -29,7 +30,8 @@ public class Settings {
 	}
 
 	public static void update(String input) {
-
+		
+		// Check for config in line and change it correspondingly 
 		switch (input.split(": ")[0]) {
 		case "rezise": {
 			if (input.split(": ")[1] == "true") {

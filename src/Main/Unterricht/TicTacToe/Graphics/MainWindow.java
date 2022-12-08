@@ -18,6 +18,7 @@ public class MainWindow extends JFrame {
 	public MainWindow(String name, int width, int height, boolean visibleOnStartup, Color BackgroundColor) {
 		Logger.log("TicTacToe > Graphics >", "Creating MainWindow with the following values: name = " + name + "; width = " + width + "; height = " + height + "; visibleOnStartup = " + visibleOnStartup + "; BackgroundColor = " + BackgroundColor);
 		
+		// Change attributes of mainframe
 		this.setName(name);
 		this.setSize(width, height);
 		this.getContentPane().setBackground(BackgroundColor);
