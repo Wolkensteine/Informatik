@@ -38,6 +38,7 @@ public class MainWindow extends JFrame {
 				GraphicsMain.repaint();
 			}
 			public void componentMoved(ComponentEvent e) {
+				// TODO Check if parts of the window are outside of the visual area and bring it back into visible area
 			}
 			public void componentHidden(ComponentEvent e) {
 				// TODO stop refreshing Image to increase overall performance
