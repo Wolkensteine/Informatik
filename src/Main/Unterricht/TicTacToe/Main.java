@@ -15,7 +15,9 @@ public class Main {
 
 		Settings.load(); // Load the settings
 		
-		SystemInformation.GetSystemInformation();	// This outputs a lot of data about the used system.
+		if (Variables.SystemInfo) { // Check if system infos should be logged
+			SystemInformation.GetSystemInformation();	// This outputs a lot of data about the used system.
+		}
 		
 		EventQueue.invokeLater(Variables.LogicMainThread);
 		

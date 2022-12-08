@@ -15,8 +15,10 @@ import Main.Unterricht.TicTacToe.Logic.LogicThread;
 
 public class Variables {
 
+	// Logic stuff
 	public static final Runnable LogicMainThread = new LogicThread();
-
+	public static boolean SystemInfo = false;
+	
 	// Main GUI Thread
 	public static GraphicsMain GraphicsMainThread = new GraphicsMain();
 	
