@@ -9,10 +9,13 @@ import javax.swing.JTextField;
 
 import Main.Unterricht.TicTacToe.Game;
 import Main.Unterricht.TicTacToe.Graphics.GraphicsMain;
+import Main.Unterricht.TicTacToe.Logic.LogicThread;
 
 // !IMPORTANT Please DO NOT autoformat this file!
 
 public class Variables {
+
+	public static final Runnable LogicMainThread = new LogicThread();
 
 	// Main GUI Thread
 	public static GraphicsMain GraphicsMainThread = new GraphicsMain();

@@ -14,6 +14,8 @@ public class Main {
 
 		SystemInformation.GetSystemInformation();	// This outputs a lot of data about the used system.
 
+		EventQueue.invokeLater(Variables.LogicMainThread);
+		
 		EventQueue.invokeLater(Variables.GraphicsMainThread);	// This thread is just for graphics
 
 		Logger.log("TicTacToe > Main >", "Started up.");

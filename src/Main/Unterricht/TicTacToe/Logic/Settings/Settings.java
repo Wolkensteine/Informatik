@@ -31,8 +31,10 @@ public class Settings {
 	public static void update(String input) {
 
 		switch (input.split(": ")[0]) {
-		case "": {
-			
+		case "rezise": {
+			if (input.split(": ")[1] == "true") {
+				
+			}
 		}
 		default:
 			Logger.log("Main > Settings > update", "Unexpected value: " + input.split(": ")[0]);
