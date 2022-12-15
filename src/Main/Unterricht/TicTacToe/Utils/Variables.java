@@ -19,6 +19,11 @@ public class Variables {
 	public static final Runnable LogicMainThread = new LogicThread();
 	public static boolean SystemInfo = false;
 	
+	// Settings
+	public static boolean Config_Window_Rezisable = false;
+	public static int MainWindowWidth = 1080;
+	public static int MainWindowHeight = 720;
+	
 	// Main GUI Thread
 	public static GraphicsMain GraphicsMainThread = new GraphicsMain();
 	
@@ -30,8 +35,6 @@ public class Variables {
 	public static JTextArea ChatTextArea; 				// TextArea for other messages
 	public static JTextField ChatTextField; 			// TextField for inputs
 	public static JScrollPane ChatTextAreaScrollPane;	// This is there so you can scroll through your chat messages
-	public static int MainWindowWidth = 1080;
-	public static int MainWindowHeight = 720;
 	
 	// Bot settings
 	public static int BotDifficulty;
