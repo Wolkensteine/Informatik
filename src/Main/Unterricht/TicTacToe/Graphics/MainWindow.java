@@ -25,6 +25,7 @@ public class MainWindow extends JFrame {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(visibleOnStartup);
 		this.setLayout(new BorderLayout());
+		this.setResizable(Variables.Config_Window_Rezisable);
 		
 		// Add a component listener
 		getContentPane().addComponentListener(new ComponentListener() {
