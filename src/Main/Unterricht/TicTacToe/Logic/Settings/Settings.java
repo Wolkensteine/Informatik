@@ -34,21 +34,24 @@ public class Settings {
 		
 		// Check for config in line and change it correspondingly 
 		switch (input.split(": ")[0].toLowerCase()) {
+		// Change if the window is resizeable or not
 		case "rezise": {
 			if (input.split(": ")[1].toLowerCase().startsWith("true")) {
-				Logger.log("Main > Settings > Rezisable", "True");
-				Variables.Config_Window_Rezisable = true;
+				Logger.log("Main > Settings > Resizable", "True");
+				Variables.Config_Window_Resizable = true;
 			} else if (input.split(": ")[1].toLowerCase().startsWith("false")) {
-				Logger.log("Main > Settings > Rezisable", "False");
-				Variables.Config_Window_Rezisable = false;
+				Logger.log("Main > Settings > Resizable", "False");
+				Variables.Config_Window_Resizable = false;
 			}
 			break;
 		}
+		// Change default width
 		case "width": {
 			Variables.MainWindowWidth = Integer.parseInt(input.split(": ")[1]);
 			Logger.log("Main > Settings > Window Width", Integer.toString(Variables.MainWindowWidth));
 			break;
 		}
+		// Change default height
 		case "height": {
 			Variables.MainWindowHeight = Integer.parseInt(input.split(": ")[1]);
 			Logger.log("Main > Settings > Window height", Integer.toString(Variables.MainWindowHeight));
