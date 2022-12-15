@@ -10,6 +10,7 @@ public class hangman {
 	public static String Word;
 	public static char[] WordLetters;
 	public static char[] DifferentLettersInWord;
+	public static char[] TempCharArray; // This is a temporary array to transfer chars between arrays or to add chars to existing array
 	
 	public static void main(String[] args) {
 		
@@ -21,9 +22,21 @@ public class hangman {
 		
 		WordLetters = new char[Word.length()]; // Make the letter array as long as the length of the input String
 		
-		// Get different chars in the word to later check, if they are inputed to find them
+		DifferentLettersInWord = new char[0];
+		
+		// Transfer letters to letter array and ...
+		// ... get different chars in the word to later check, if they are inputed to find them
 		for (int i = 0; i < Word.length(); i++) {
-			
+			WordLetters[i] = Word.charAt(i); // Add letter to letter array
+			boolean NewLetter = true; // set temp variable to check for new letter
+			// check for new letter
+			for (int j = 0; j <= DifferentLettersInWord.length; j++) {
+				// check if letter exists already
+				if (DifferentLettersInWord[j] == WordLetters[i]) {
+					NewLetter = false;
+					break;
+				}
+			}
 		}
 		
 		// Begin game
