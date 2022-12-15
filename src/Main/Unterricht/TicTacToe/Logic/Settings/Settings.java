@@ -15,7 +15,7 @@ public class Settings {
 		
 		// Try to load file
 		try {
-			File myObj = new File("main.cfg");
+			File myObj = new File("Config/main.cfg");
 			Scanner myReader = new Scanner(myObj);
 			while (myReader.hasNextLine()) { // Update the configs one line after another
 				String data = myReader.nextLine();
@@ -35,17 +35,24 @@ public class Settings {
 		// Check for config in line and change it correspondingly 
 		switch (input.split(": ")[0].toLowerCase()) {
 		case "rezise": {
-			if (input.split(": ")[1].toLowerCase() == "true") {
+			if (input.split(": ")[1].toLowerCase().startsWith("true")) {
+				Logger.log("Main > Settings > Rezisable", "True");
 				Variables.Config_Window_Rezisable = true;
-			} else if (input.split(": ")[1].toLowerCase() == "false") {
+			} else if (input.split(": ")[1].toLowerCase().startsWith("false")) {
+				Logger.log("Main > Settings > Rezisable", "False");
 				Variables.Config_Window_Rezisable = false;
 			}
+			break;
 		}
 		case "width": {
 			Variables.MainWindowWidth = Integer.parseInt(input.split(": ")[1]);
+			Logger.log("Main > Settings > Window Width", Integer.toString(Variables.MainWindowWidth));
+			break;
 		}
 		case "height": {
 			Variables.MainWindowHeight = Integer.parseInt(input.split(": ")[1]);
+			Logger.log("Main > Settings > Window height", Integer.toString(Variables.MainWindowHeight));
+			break;
 		}
 		default:
 			Logger.log("Main > Settings > update", "Unexpected value: " + input.split(": ")[0]);
