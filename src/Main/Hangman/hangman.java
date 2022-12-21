@@ -11,6 +11,7 @@ public class hangman {
 	public static char[] WordLetters;
 	public static char[] DifferentLettersInWord;
 	public static char[] TempCharArray; // This is a temporary array to transfer chars between arrays or to add chars to existing array
+	public static int LeftTrys = 6;
 	
 	public static void main(String[] args) {
 		
@@ -27,21 +28,34 @@ public class hangman {
 		// Transfer letters to letter array and ...
 		// ... get different chars in the word to later check, if they are inputed to find them
 		for (int i = 0; i < Word.length(); i++) {
-			WordLetters[i] = Word.charAt(i); // Add letter to letter array
-			boolean NewLetter = true; // set temp variable to check for new letter
+			WordLetters[i] = Word.toLowerCase().charAt(i); // Add letter to letter array
+			
 			// check for new letter
-			for (int j = 0; j <= DifferentLettersInWord.length; j++) {
-				// check if letter exists already
-				if (DifferentLettersInWord[j] == WordLetters[i]) {
-					NewLetter = false;
-					break;
+			if (DifferentLettersInWord.length == 0) {
+				DifferentLettersInWord = new char[1];
+				DifferentLettersInWord[0] = WordLetters[i];
+			} else {
+				boolean LetterIsThere = false;
+				for (int j = 0; j < DifferentLettersInWord.length; j++) {
+					if (DifferentLettersInWord[j] == WordLetters[i]) {
+						LetterIsThere = true;
+						break;
+					}
+				}
+				if (!LetterIsThere) {
+					TempCharArray = new char[DifferentLettersInWord.length + 1];
+					for (int j = 0; j < DifferentLettersInWord.length; j++) {
+						TempCharArray[j] = DifferentLettersInWord[j];
+					}
+					TempCharArray[TempCharArray.length - 1] = WordLetters[i];
+					DifferentLettersInWord = TempCharArray;
 				}
 			}
 		}
 		
 		// Begin game
 		while (true) {
-			
+			/*
 			if () { // Check if you won
 				Endmessage = "won! Congratulations!"; // Change the message at the end
 				break;
@@ -50,7 +64,7 @@ public class hangman {
 				break;
 			} else { // Do normal
 				
-			}
+			}*/break;
 			
 		}
 		
