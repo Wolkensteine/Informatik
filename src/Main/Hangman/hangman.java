@@ -12,6 +12,7 @@ public class hangman {
 	public static char[] DifferentLettersInWord;
 	public static char[] TempCharArray; // This is a temporary array to transfer chars between arrays or to add chars to existing array
 	public static int LeftTrys = 6;
+	public static String LastInput;
 	
 	public static void main(String[] args) {
 		
@@ -55,6 +56,9 @@ public class hangman {
 		
 		// Begin game
 		while (true) {
+			
+			LastInput = InputScanner.next();
+			
 			/*
 			if () { // Check if you won
 				Endmessage = "won! Congratulations!"; // Change the message at the end
@@ -64,7 +68,9 @@ public class hangman {
 				break;
 			} else { // Do normal
 				
-			}*/break;
+			}*/
+			
+			break;
 			
 		}
 		
