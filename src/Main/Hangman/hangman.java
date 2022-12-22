@@ -12,8 +12,9 @@ public class hangman {
 	public static char[] DifferentLettersInWord;
 	public static char[] TempCharArray; // This is a temporary array to transfer chars between arrays or to add chars to existing array
 	public static int LeftTrys = 6;
-	public static String LastInput;
+	public static char LastInput;
 	public static char[] LetterPlaceHolders;
+	public static char[] GuessedLetters;
 	
 	public static void main(String[] args) {
 		
@@ -61,10 +62,10 @@ public class hangman {
 			LetterPlaceHolders[i] = '_';
 		}
 		
+		GuessedLetters = new char[0];
+		
 		// Begin game
 		while (true) {
-			
-			LastInput = InputScanner.next();
 			
 			/*
 			if () { // Check if you won
@@ -73,9 +74,22 @@ public class hangman {
 			} else if () { // Check if you lost
 				Endmessage = "lost ... Maybe you'll get it next time"; // Change the message at the end
 				break;
-			} else { // Do normal
-				
 			}*/
+			
+			LastInput = InputScanner.next().toLowerCase().charAt(0);
+			
+			if (GuessedLetters.length == 0) {
+				GuessedLetters = new char[1];
+				GuessedLetters[0] = LastInput;
+			} else {
+				for (int i = 0; i < GuessedLetters.length; i++) {
+					for (int j = 0; j < GuessedLetters.length; j++) {
+						TempCharArray[j] = GuessedLetters[j];
+					}
+					TempCharArray[TempCharArray.length - 1] = LastInput;
+					GuessedLetters = TempCharArray;
+				}
+			}
 			
 			break;
 			
