@@ -13,6 +13,7 @@ public class hangman {
 	public static char[] TempCharArray; // This is a temporary array to transfer chars between arrays or to add chars to existing array
 	public static int LeftTrys = 6;
 	public static String LastInput;
+	public static char[] LetterPlaceHolders;
 	
 	public static void main(String[] args) {
 		
@@ -52,6 +53,12 @@ public class hangman {
 					DifferentLettersInWord = TempCharArray;
 				}
 			}
+		}
+		
+		LetterPlaceHolders = new char[WordLetters.length];
+		
+		for (int i = 0; i < LetterPlaceHolders.length; i++) {
+			LetterPlaceHolders[i] = '_';
 		}
 		
 		// Begin game
