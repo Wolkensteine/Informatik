@@ -14,7 +14,7 @@ public class hangman {
 	public static int LeftTrys = 6;
 	public static char LastInput;
 	public static char[] LetterPlaceHolders;
-	public static char[] GuessedLetters;
+	public static char[] GuessedLetters = new char[0];
 	
 	public static void main(String[] args) {
 		
@@ -38,6 +38,7 @@ public class hangman {
 				DifferentLettersInWord = new char[1];
 				DifferentLettersInWord[0] = WordLetters[i];
 			} else {
+				// Check if the letter is there
 				boolean LetterIsThere = false;
 				for (int j = 0; j < DifferentLettersInWord.length; j++) {
 					if (DifferentLettersInWord[j] == WordLetters[i]) {
@@ -45,6 +46,7 @@ public class hangman {
 						break;
 					}
 				}
+				// If the letter isn't there add it to the array
 				if (!LetterIsThere) {
 					TempCharArray = new char[DifferentLettersInWord.length + 1];
 					for (int j = 0; j < DifferentLettersInWord.length; j++) {
@@ -56,28 +58,30 @@ public class hangman {
 			}
 		}
 		
+		// Create the placeholder array and fill it with underscores
 		LetterPlaceHolders = new char[WordLetters.length];
 		
 		for (int i = 0; i < LetterPlaceHolders.length; i++) {
 			LetterPlaceHolders[i] = '_';
 		}
 		
-		GuessedLetters = new char[0];
-		
-		// Begin game
+		// Begin game loop
 		while (true) {
 			
 			/*
+			// Check, if loop needs to be broken.
 			if () { // Check if you won
 				Endmessage = "won! Congratulations!"; // Change the message at the end
 				break;
-			} else if () { // Check if you lost
+			} else if (LeftTries <= 0) { // Check if you lost
 				Endmessage = "lost ... Maybe you'll get it next time"; // Change the message at the end
 				break;
 			}*/
 			
+			// Get the new input as lowercase letter, so every letter works ar every position
 			LastInput = InputScanner.next().toLowerCase().charAt(0);
 			
+			// Add new letter to the array of guessed letters, so it can be printed out later
 			if (GuessedLetters.length == 0) {
 				GuessedLetters = new char[1];
 				GuessedLetters[0] = LastInput;
@@ -91,7 +95,7 @@ public class hangman {
 				}
 			}
 			
-			break;
+			break; // This is just for building the stuff and test it out
 			
 		}
 		
