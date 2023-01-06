@@ -103,7 +103,7 @@ public class hangman {
 			if (tmpWon) { // Check if you won
 				Endmessage = "won! Congratulations!"; // Change the message at the end
 				break;
-			} else if (LeftTries <= 0) { // Check if you lost
+			} else if (LeftTrys <= 0) { // Check if you lost
 				Endmessage = "lost ... Maybe you'll get it next time"; // Change the message at the end
 				break;
 			}
