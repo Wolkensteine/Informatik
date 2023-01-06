@@ -163,7 +163,7 @@ public class hangman {
 			System.out.println(placeholderout);
 			System.out.println();
 			
-			break; // This is just for building the stuff and test it out
+			break; // This is just for building the stuff and test it out, else it will get commented out
 			
 		}
 		
