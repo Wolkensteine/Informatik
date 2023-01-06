@@ -70,6 +70,21 @@ public class hangman {
 		}
 		
 		// Initial cleanup of the console and output of the placeholder array to begin the game.
+		// Print out 100 line breaks
+		for (int i = 0; i < 100; i++) {
+			System.out.println();
+		}
+		// Print out message to player two
+		// create temporary variable for the output of the placeholders and the guessed letters
+		String placeholderout = "";
+		// transfer the placeholders and guessed letters to the output string with spaces between them
+		for (int i = 0; i < LetterPlaceHolders.length; i++) {
+			placeholderout += LetterPlaceHolders[i] + " ";
+		}
+		
+		// Do the outputs
+		System.out.println(placeholderout);
+		System.out.println("Left guesses: " + LeftTrys); // Tell the player how many wrong guesses he is allowed to make
 		
 		// Begin game loop
 		while (true) {
@@ -129,7 +144,7 @@ public class hangman {
 			
 			
 			// create temporary variable for the output of the placeholders and the guessed letters
-			String placeholderout = "";
+			placeholderout = "";
 			// transfer the placeholders and guessed letters to the output string with spaces between them
 			for (int i = 0; i < LetterPlaceHolders.length; i++) {
 				placeholderout += LetterPlaceHolders[i] + " ";
