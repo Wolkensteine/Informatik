@@ -78,20 +78,37 @@ public class hangman {
 				break;
 			}*/
 			
-			// Get the new input as lowercase letter, so every letter works ar every position
+			// Get the new input as lowercase letter, so every letter works at every position
 			LastInput = InputScanner.next().toLowerCase().charAt(0);
 			
-			// Add new letter to the array of guessed letters, so it can be printed out later
-			if (GuessedLetters.length == 0) {
-				GuessedLetters = new char[1];
-				GuessedLetters[0] = LastInput;
+			// Check if letter was already guessed
+			boolean tmpbool = false; // temporary variable, which will be set to true if the letter is already there
+			
+			for (int i = 0; i < GuessedLetters.length; i++) {
+				if (GuessedLetters[i] == LastInput) {
+					tmpbool = true;
+					break;
+				}
+			}
+			
+			// When letter was guessed send message, else proceed with normal procedure 
+			if (tmpbool) {
+				System.out.println("You already tried this letter.");
 			} else {
-				for (int i = 0; i < GuessedLetters.length; i++) {
-					for (int j = 0; j < GuessedLetters.length; j++) {
-						TempCharArray[j] = GuessedLetters[j];
+				// Add new letter to the array of guessed letters, so it can be printed out later
+				if (GuessedLetters.length == 0) {
+					// There hasn't been any guesses so far. Add it as the first entry
+					GuessedLetters = new char[1];
+					GuessedLetters[0] = LastInput;
+				} else {
+					// Add new letter to the guessed letters by using a temporary array with a plus one length in comparison to the already existing array of guessed letters
+					for (int i = 0; i < GuessedLetters.length; i++) {
+						for (int j = 0; j < GuessedLetters.length; j++) {
+							TempCharArray[j] = GuessedLetters[j];
+						}
+						TempCharArray[TempCharArray.length - 1] = LastInput;
+						GuessedLetters = TempCharArray;
 					}
-					TempCharArray[TempCharArray.length - 1] = LastInput;
-					GuessedLetters = TempCharArray;
 				}
 			}
 			
