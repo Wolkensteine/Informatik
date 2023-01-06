@@ -114,6 +114,8 @@ public class hangman {
 			// Get the new input as lowercase letter, so every letter works at every position
 			LastInput = InputScanner.next().toLowerCase().charAt(0);
 			
+			System.out.println("You inputted: " + LastInput);
+			
 			// Check if letter was already guessed
 			boolean tmpbool = false; // temporary variable, which will be set to true if the letter is already there
 			
@@ -127,7 +129,7 @@ public class hangman {
 			// When letter was guessed send message, else proceed with normal procedure 
 			if (tmpbool) {
 				System.out.println("You already tried this letter.");
-			} else {
+			} else {				
 				// Add new letter to the array of guessed letters, so it can be printed out later
 				if (GuessedLetters.length == 0) {
 					// There hasn't been any guesses so far. Add it as the first entry
@@ -135,6 +137,7 @@ public class hangman {
 					GuessedLetters[0] = LastInput;
 				} else {
 					// Add new letter to the guessed letters by using a temporary array with a plus one length in comparison to the already existing array of guessed letters
+					TempCharArray = new char[GuessedLetters.length + 1];
 					for (int i = 0; i < GuessedLetters.length; i++) {
 						for (int j = 0; j < GuessedLetters.length; j++) {
 							TempCharArray[j] = GuessedLetters[j];
@@ -181,6 +184,8 @@ public class hangman {
 			System.out.println(placeholderout);
 			System.out.println();
 			System.out.println(tmpGuessedLetterOut);
+			System.out.println();
+			System.out.println("You have " + LeftTrys + " Trys left!");
 			System.out.println();
 			
 			// break; // This is just for building the stuff and test it out, else it will get commented out
