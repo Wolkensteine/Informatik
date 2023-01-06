@@ -123,9 +123,16 @@ public class hangman {
 			}
 			
 			
-			// Output
+			// create temporary variable for the output of the placeholders and the guessed letters
+			String placeholderout = "";
+			// transfer the placeholders and guessed letters to the output string with spaces between them
+			for (int i = 0; i < LetterPlaceHolders.length; i++) {
+				placeholderout += LetterPlaceHolders[i] + " ";
+			}
+			
+			// Output all the things
 			System.out.println();
-			System.out.println(LetterPlaceHolders);
+			System.out.println(placeholderout);
 			System.out.println();
 			
 			break; // This is just for building the stuff and test it out
