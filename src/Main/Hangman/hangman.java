@@ -110,7 +110,19 @@ public class hangman {
 						GuessedLetters = TempCharArray;
 					}
 				}
+				
+				for (int i = 0; i < WordLetters.length; i++) {
+					if (WordLetters[i] == LastInput) {
+						LetterPlaceHolders[i] = LastInput;
+					}
+				}
 			}
+			
+			
+			// Output
+			System.out.println();
+			System.out.println(LetterPlaceHolders);
+			System.out.println();
 			
 			break; // This is just for building the stuff and test it out
 			
