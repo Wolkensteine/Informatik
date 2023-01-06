@@ -91,17 +91,22 @@ public class hangman {
 		// Begin game loop
 		while (true) {
 			
-			// Check if you won by comparing Guessed letters with letters in word
+			// Check if you won by looking for underscores in the placeholder array
+			boolean tmpWon = true;
+			for (int i = 0; i < LetterPlaceHolders.length; i++) {
+				if (LetterPlaceHolders[i] == '_') {
+					tmpWon = false;
+				}
+			}
 			
-			/*
 			// Check, if loop needs to be broken.
-			if () { // Check if you won
+			if (tmpWon) { // Check if you won
 				Endmessage = "won! Congratulations!"; // Change the message at the end
 				break;
 			} else if (LeftTries <= 0) { // Check if you lost
 				Endmessage = "lost ... Maybe you'll get it next time"; // Change the message at the end
 				break;
-			}*/
+			}
 			
 			// Tell the second player to make a guess
 			System.out.println("It is your turn player 2. Make a guess.");
@@ -174,6 +179,7 @@ public class hangman {
 			// Output all the things
 			System.out.println();
 			System.out.println(placeholderout);
+			System.out.println();
 			System.out.println(tmpGuessedLetterOut);
 			System.out.println();
 			
