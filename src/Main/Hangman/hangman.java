@@ -135,10 +135,18 @@ public class hangman {
 					}
 				}
 				
+				// Add letter to LetterPlaceHoldes array if it is in the word. If this is the case also set a tmp variable on false
+				boolean tmpCheckIfLetterIsNotInWord = true;
 				for (int i = 0; i < WordLetters.length; i++) {
 					if (WordLetters[i] == LastInput) {
 						LetterPlaceHolders[i] = LastInput;
+						tmpCheckIfLetterIsNotInWord = false;
 					}
+				}
+				// Now lower the amount of left tries by one if the letter is not in the word
+				if (tmpCheckIfLetterIsNotInWord) {
+					System.out.println("You guessed wrong :("); // Tell the player his guess was not right
+					LeftTrys--; // LeftTrys - 1
 				}
 			}
 			
