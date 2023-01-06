@@ -84,10 +84,14 @@ public class hangman {
 		
 		// Do the outputs
 		System.out.println(placeholderout);
+		System.out.println();
 		System.out.println("Left guesses: " + LeftTrys); // Tell the player how many wrong guesses he is allowed to make
+		System.out.println();
 		
 		// Begin game loop
 		while (true) {
+			
+			// Check if you won by comparing Guessed letters with letters in word
 			
 			/*
 			// Check, if loop needs to be broken.
@@ -151,19 +155,29 @@ public class hangman {
 			}
 			
 			
-			// create temporary variable for the output of the placeholders and the guessed letters
+			// update temporary variable for the output of the placeholders and the guessed letters
 			placeholderout = "";
 			// transfer the placeholders and guessed letters to the output string with spaces between them
 			for (int i = 0; i < LetterPlaceHolders.length; i++) {
 				placeholderout += LetterPlaceHolders[i] + " ";
 			}
 			
+			// create temporary variable for the output of all guessed letters
+			String tmpGuessedLetterOut = "You already guessed the following: ";
+			// Transfer the letters from the array into the string
+			for (int i = 0; i < GuessedLetters.length - 1; i++) {
+				tmpGuessedLetterOut += GuessedLetters[i] + " ";
+			}
+			// Put the last letter without a comma at the end
+			tmpGuessedLetterOut += GuessedLetters[GuessedLetters.length - 1];
+			
 			// Output all the things
 			System.out.println();
 			System.out.println(placeholderout);
+			System.out.println(tmpGuessedLetterOut);
 			System.out.println();
 			
-			break; // This is just for building the stuff and test it out, else it will get commented out
+			// break; // This is just for building the stuff and test it out, else it will get commented out
 			
 		}
 		
