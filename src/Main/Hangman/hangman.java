@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class hangman {
 
-	// Set variables
+	// Define variables
 	public static String Endmessage;
 	public static Scanner InputScanner = new Scanner(System.in);
 	public static String Word;
@@ -16,16 +16,19 @@ public class hangman {
 	public static char[] LetterPlaceHolders;
 	public static char[] GuessedLetters = new char[0];
 	
+	// Main class
 	public static void main(String[] args) {
 		
+		// First messages
 		System.out.println("Starting hangman game ...");
+		System.out.println("Player one give me a word!");
 		
-		System.out.println("Player ome give me a word!");
-		
+		// Begin input
 		Word = InputScanner.next(); // Get next input and store it
 		
 		WordLetters = new char[Word.length()]; // Make the letter array as long as the length of the input String
 		
+		// Begin indexing letters
 		DifferentLettersInWord = new char[0];
 		
 		// Transfer letters to letter array and ...
@@ -58,9 +61,10 @@ public class hangman {
 			}
 		}
 		
-		// Create the placeholder array and fill it with underscores
+		// Create the placeholder array
 		LetterPlaceHolders = new char[WordLetters.length];
 		
+		// fill the array with underscores
 		for (int i = 0; i < LetterPlaceHolders.length; i++) {
 			LetterPlaceHolders[i] = '_';
 		}
