@@ -69,6 +69,8 @@ public class hangman {
 			LetterPlaceHolders[i] = '_';
 		}
 		
+		// Initial cleanup of the console and output of the placeholder array to begin the game.
+		
 		// Begin game loop
 		while (true) {
 			
@@ -81,6 +83,9 @@ public class hangman {
 				Endmessage = "lost ... Maybe you'll get it next time"; // Change the message at the end
 				break;
 			}*/
+			
+			// Tell the second player to make a guess
+			System.out.println("It is your turn player 2. Make a guess.");
 			
 			// Get the new input as lowercase letter, so every letter works at every position
 			LastInput = InputScanner.next().toLowerCase().charAt(0);
