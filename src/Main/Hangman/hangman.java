@@ -16,6 +16,14 @@ public class hangman {
 	public static char[] LetterPlaceHolders;
 	public static char[] GuessedLetters = new char[0];
 	
+	// ASCII art
+	//  _____
+	//  |  \|
+	// \o/  |
+	//  |   |
+	// / \  |
+	//     / \
+	
 	// Main class
 	public static void main(String[] args) {
 		
