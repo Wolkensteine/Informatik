@@ -1,11 +1,8 @@
 package Main.Unterricht.TicTacToe.Logic.Game.Bot;
 
-import java.util.Random;
-
 import Main.Unterricht.TicTacToe.Game;
 import Main.Unterricht.TicTacToe.Logic.Game.PlayerInteractions.Symbol;
 import Main.Unterricht.TicTacToe.Utils.Logger;
-import Main.Unterricht.TicTacToe.Utils.Variables;
 
 /*
  * This is the class in which the bot is programmed, which will be your opponent when you are playing

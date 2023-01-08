@@ -24,6 +24,8 @@ public class hangman {
 	// / \  |
 	//     / \
 	
+	public static String[] ASCIIart = {"", "", "", "", "", ""};
+	
 	// Main class
 	public static void main(String[] args) {
 		
@@ -201,6 +203,8 @@ public class hangman {
 		}
 		
 		System.out.println("Hangman game done. You " + Endmessage);
+		
+		InputScanner.close();
 		
 	}
 

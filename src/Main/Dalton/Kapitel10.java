@@ -97,7 +97,10 @@ public class Kapitel10 {
 			System.out.println("Diese Option gibt es nicht.");
 		
 		}
-
+		
+		// Im nachhinein hinzugefügt
+		eingabe.close();
+		
 	}
 
 }
