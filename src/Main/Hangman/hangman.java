@@ -24,7 +24,14 @@ public class hangman {
 	// / \  |
 	//     / \
 	
-	public static String[] ASCIIart = {"", "", "", "", "", ""};
+	public static String[] ASCIIart = {
+			" _____\n |  \\|\n\\o/  |\n |   |\n/ \\  |\n    / \\",
+			" _____\n |  \\|\n     |\n     |\n     |\n    / \\", 
+			" _____\n    \\|\n     |\n     |\n     |\n    / \\",
+			" _____\n     |\n     |\n     |\n     |\n    / \\", 
+			"\n     |\n     |\n     |\n     |\n    / \\",
+			"\n\n\n\n\n    / \\", 
+			""};
 	
 	// Main class
 	public static void main(String[] args) {
@@ -194,6 +201,8 @@ public class hangman {
 			System.out.println(placeholderout);
 			System.out.println();
 			System.out.println(tmpGuessedLetterOut);
+			System.out.println();
+			System.out.println(ASCIIart[LeftTrys]);
 			System.out.println();
 			System.out.println("You have " + LeftTrys + " Trys left!");
 			System.out.println();
