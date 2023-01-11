@@ -36,20 +36,25 @@ public class Placement {
 		}
 	}
 	
-	public static boolean isWin() {
+	public static boolean isWin(int location, int symbol) {
 		switch (Variables.game.GameMatrixSize) {
 		case 0: { // small matrix
-			
+			if (Variables.game.numberOfMoves < 5) {
+				return false;
+			}
 			break;
 		}
 		case 1: { // large matrix
-			
+			if (Variables.game.numberOfMoves < 15) {
+				return false;
+			}
 			break;
 		}
 		default:
 			Logger.log("Main > Logic > Placement > isWin()", "Unexpected value: " + Variables.game.GameMatrixSize);
 			throw new IllegalArgumentException("Unexpected value: " + Variables.game.GameMatrixSize);
 		}
+		return false;
 	}
 	public static boolean isTie() {
 		switch (Variables.game.GameMatrixSize) {
@@ -85,7 +90,7 @@ public class Placement {
 		} else {
 			return false;
 		}
-		if (isWin()) {
+		if (isWin(place, symbol)) {
 			Logger.log("Main > Logic > GameStatus", "Win");
 			// TODO add graphical stuff that shows game is over
 		} else if (isTie()) {
