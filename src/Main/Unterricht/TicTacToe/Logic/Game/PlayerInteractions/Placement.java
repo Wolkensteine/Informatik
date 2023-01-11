@@ -9,29 +9,35 @@ public class Placement {
 		switch (Variables.game.GameMatrixSize) {
 		case 0: { // small matrix
 			if (place >= 0 && place < 9) {
-				
+				if (Variables.game.Matrix[place] == 0) {
+					return true;
+				} else {
+					return false;
+				}
 			} else {
 				return false;
 			}
-			break;
 		}
 		case 1: { // large matrix
 			if (place >= 0 && place < 81) {
-				
+				if (Variables.game.Matrix[place] == 0) {
+					return true;
+				} else {
+					return false;
+				}
 			} else {
 				return false;
 			}
-			break;
 		}
 		default:
 			throw new IllegalArgumentException("Unexpected value: " + Variables.game.GameMatrixSize);
 		}
-		
-		return false;
-		
 	}
 	
 	public static boolean isWin() {
+		return false;
+	}
+	public static boolean isTie() {
 		return false;
 	}
 	
@@ -41,11 +47,15 @@ public class Placement {
 	
 	public static boolean place(int location, int symbol) {
 		if (checkPossible(location)) {
-			
+			setSymbol(location, symbol);
 		} else {
 			return false;
 		}
-		
+		if (isWin()) {
+			// TODO add graphical stuff that shows game is over
+		} else if (isTie()) {
+			// TODO add graphical stuff that shows game is over
+		}
 		return true;
 	}
 	
