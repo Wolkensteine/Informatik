@@ -54,12 +54,18 @@ public class Placement {
 	public static boolean isTie() {
 		switch (Variables.game.GameMatrixSize) {
 		case 0: { // small matrix
-			
-			break;
+			if (Variables.game.numberOfMoves == 9) {
+				return true;
+			} else {
+				return false;
+			}
 		}
 		case 1: { // large matrix
-			
-			break;
+			if (Variables.game.numberOfMoves == 81) {
+				return true;
+			} else {
+				return false;
+			}
 		}
 		default:
 			Logger.log("Main > Logic > Placement > isTie()", "Unexpected value: " + Variables.game.GameMatrixSize);
@@ -69,6 +75,7 @@ public class Placement {
 	
 	public static void setSymbol(int place, int symbol) {
 		Variables.game.Matrix[place] = symbol;
+		Variables.game.numberOfMoves++;
 	}
 	
 	public static boolean place(int location, int symbol) {
