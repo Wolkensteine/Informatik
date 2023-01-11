@@ -1,4 +1,4 @@
-package Main.Unterricht.TicTacToe.Logic.Chat;
+package Main.Unterricht.TicTacToe.Logic.Game.PlayerInteractions;
 
 import Main.Unterricht.TicTacToe.Utils.Variables;
 
