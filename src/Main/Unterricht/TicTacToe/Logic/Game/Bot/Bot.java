@@ -1,7 +1,6 @@
 package Main.Unterricht.TicTacToe.Logic.Game.Bot;
 
 import Main.Unterricht.TicTacToe.Game;
-import Main.Unterricht.TicTacToe.Logic.Game.PlayerInteractions.Symbol;
 import Main.Unterricht.TicTacToe.Utils.Logger;
 
 /*
@@ -75,8 +74,6 @@ public class Bot {
 				break;
 			}
 		}
-		
-		Symbol.PlaceSymbol(place, 2);
 		
 	}
 
