@@ -1,5 +1,6 @@
 package Main.Unterricht.TicTacToe.Logic.Game.PlayerInteractions;
 
+import Main.Unterricht.TicTacToe.Utils.Logger;
 import Main.Unterricht.TicTacToe.Utils.Variables;
 
 public class Placement {
@@ -30,15 +31,40 @@ public class Placement {
 			}
 		}
 		default:
+			Logger.log("Main > Logic > Placement > checkPossible()", "Unexpected value: " + Variables.game.GameMatrixSize);
 			throw new IllegalArgumentException("Unexpected value: " + Variables.game.GameMatrixSize);
 		}
 	}
 	
 	public static boolean isWin() {
-		return false;
+		switch (Variables.game.GameMatrixSize) {
+		case 0: { // small matrix
+			
+			break;
+		}
+		case 1: { // large matrix
+			
+			break;
+		}
+		default:
+			Logger.log("Main > Logic > Placement > isWin()", "Unexpected value: " + Variables.game.GameMatrixSize);
+			throw new IllegalArgumentException("Unexpected value: " + Variables.game.GameMatrixSize);
+		}
 	}
 	public static boolean isTie() {
-		return false;
+		switch (Variables.game.GameMatrixSize) {
+		case 0: { // small matrix
+			
+			break;
+		}
+		case 1: { // large matrix
+			
+			break;
+		}
+		default:
+			Logger.log("Main > Logic > Placement > isTie()", "Unexpected value: " + Variables.game.GameMatrixSize);
+			throw new IllegalArgumentException("Unexpected value: " + Variables.game.GameMatrixSize);
+		}
 	}
 	
 	public static void setSymbol(int place, int symbol) {
@@ -46,14 +72,17 @@ public class Placement {
 	}
 	
 	public static boolean place(int location, int symbol) {
+		Logger.log("Main > Logic > Placement > place()", "Trying to set symbol " + symbol + " at position " + location);
 		if (checkPossible(location)) {
 			setSymbol(location, symbol);
 		} else {
 			return false;
 		}
 		if (isWin()) {
+			Logger.log("Main > Logic > GameStatus", "Win");
 			// TODO add graphical stuff that shows game is over
 		} else if (isTie()) {
+			Logger.log("Main > Logic > GameStatus", "Tie");
 			// TODO add graphical stuff that shows game is over
 		}
 		return true;
