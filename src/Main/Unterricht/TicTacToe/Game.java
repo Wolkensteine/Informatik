@@ -7,10 +7,14 @@ public class Game {
 
 	public static int GameMatrixSize; // 0 = small 1 = big
 	
+	// 0 = nothing
+	// 1 = x
+	// 2 = o
 	public static int[] Matrix;
 	
-	public static String MyID;
+	public static int numberOfMoves;
 	
+	public static String MyID;
 	public static String OpponentID;
 	
 	public Game(int MatrixSize, String SendMyID, String SendOpponentID) {
@@ -35,8 +39,9 @@ public class Game {
 		
 		Logger.log("Main > Game", "Matrix size: " + MatrixSize);
 		
-		MyID = SendMyID;
+		numberOfMoves = 0;
 		
+		MyID = SendMyID;
 		OpponentID = SendOpponentID;
 		
 	}
