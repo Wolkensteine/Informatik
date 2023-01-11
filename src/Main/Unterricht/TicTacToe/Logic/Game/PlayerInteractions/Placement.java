@@ -7,12 +7,20 @@ public class Placement {
 	public static boolean checkPossible(int place) {
 		
 		switch (Variables.game.GameMatrixSize) {
-		case 0: {
-			
+		case 0: { // small matrix
+			if (place >= 0 && place < 9) {
+				
+			} else {
+				return false;
+			}
 			break;
 		}
-		case 1: {
-			
+		case 1: { // large matrix
+			if (place >= 0 && place < 81) {
+				
+			} else {
+				return false;
+			}
 			break;
 		}
 		default:
