@@ -23,4 +23,22 @@ public class Placement {
 		
 	}
 	
+	public static boolean isWin() {
+		return false;
+	}
+	
+	public static void setSymbol(int place, int symbol) {
+		
+	}
+	
+	public static boolean place(int location, int symbol) {
+		if (checkPossible(location)) {
+			
+		} else {
+			return false;
+		}
+		
+		return true;
+	}
+	
 }

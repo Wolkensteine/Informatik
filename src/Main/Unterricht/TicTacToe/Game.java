@@ -7,6 +7,9 @@ public class Game {
 
 	public static int GameMatrixSize; // 0 = small 1 = big
 	
+	// 0 = nothing
+	// 1 = x
+	// 2 = o
 	public static int[] Matrix;
 	
 	public static String MyID;
