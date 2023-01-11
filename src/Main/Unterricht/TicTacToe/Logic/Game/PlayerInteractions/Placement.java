@@ -42,7 +42,7 @@ public class Placement {
 	}
 	
 	public static void setSymbol(int place, int symbol) {
-		
+		Variables.game.Matrix[place] = symbol;
 	}
 	
 	public static boolean place(int location, int symbol) {
