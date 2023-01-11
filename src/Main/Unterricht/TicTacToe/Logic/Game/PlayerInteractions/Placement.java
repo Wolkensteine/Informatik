@@ -90,7 +90,7 @@ public class Placement {
 		} else {
 			return false;
 		}
-		if (isWin(place, symbol)) {
+		if (isWin(location, symbol)) {
 			Logger.log("Main > Logic > GameStatus", "Win");
 			// TODO add graphical stuff that shows game is over
 		} else if (isTie()) {
