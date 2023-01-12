@@ -13,7 +13,7 @@ public class Main {
 		
 		Logger.log("TicTacToe > Main >", "Starting up ...");
 
-		Settings.load(); // Load the settings
+		Settings.load("main.cfg"); // Load the settings
 		
 		if (Variables.SystemInfo) { 							// Check if system infos should be logged
 			SystemInformation.GetSystemInformation();			// This outputs a lot of data about the used system.
