@@ -120,6 +120,16 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Jakob</td>
       <td>Hangman mit ASCII art</td>
     </tr>
+    <tr>
+      <td>11.1.2023</td>
+      <td>Jakob</td>
+      <td>logik für Gewinn/Unentschieden sowie platzierung</td>
+    </tr>
+    <tr>
+      <td>11.1.2023</td>
+      <td>Jakob</td>
+      <td>Gewinnbedingungsprüfung</td>
+    </tr>
   </tbody>
 </table>
 
