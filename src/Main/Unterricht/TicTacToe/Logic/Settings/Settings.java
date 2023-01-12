@@ -62,6 +62,11 @@ public class Settings {
 			load(input.split(": ")[1]);
 			break;
 		}
+		case "rezisable": {
+			Variables.Config_Window_Resizable = Boolean.parseBoolean(input.split(": ")[1]);
+			Logger.log("Main > Settings > Window rezisability", "This is set to: " + Boolean.toString(Variables.Config_Window_Resizable));
+			break;
+		}
 		default:
 			Logger.log("Main > Settings > update", "Unexpected value: " + input.split(": ")[0]);
 			throw new IllegalArgumentException("Unexpected value: " + input.split(": ")[0]);
