@@ -126,9 +126,9 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>logik für Gewinn/Unentschieden sowie platzierung</td>
     </tr>
     <tr>
-      <td>11.1.2023</td>
+      <td>12.1.2023</td>
       <td>Jakob</td>
-      <td>Gewinnbedingungsprüfung</td>
+      <td>Gewinnbedingungsprüfung & Settings</td>
     </tr>
   </tbody>
 </table>
