@@ -128,12 +128,12 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
     <tr>
       <td>12.1.2023</td>
       <td>Jakob</td>
-      <td>Gewinnbedingungsprüfung & Settings</td>
+      <td>Gewinnbedingungsprüfung & Settings | Hendrik mit GitHub helfen</td>
     </tr>
     <tr>
       <td>12.1.2023</td>
       <td>hendrik</td>
-      <td>Gestalten der Grafiken (Symbole und Linien)</td>
+      <td>Gestalten der Grafiken (Symbole und Linien) & Bestehende Malerei upload</td>
     </tr>
   </tbody>
 </table>
