@@ -9,17 +9,17 @@ import Main.Unterricht.TicTacToe.Utils.Variables;
 
 public class Settings {
 
-	public static void load() {
+	public static void load(String filename) {
 
 		Logger.log("Main > Settings", "Loading settings ...");
 		
 		// Try to load file
 		try {
-			File myObj = new File("Config/main.cfg");
+			File myObj = new File("Config/" + filename);
 			Scanner myReader = new Scanner(myObj);
 			while (myReader.hasNextLine()) { // Update the configs one line after another
 				String data = myReader.nextLine();
-				Logger.log("Main > Settings > main.cfg", data);
+				Logger.log("Main > Settings > " + filename, data);
 				update(data);
 			}
 			myReader.close();
@@ -55,6 +55,11 @@ public class Settings {
 		case "height": {
 			Variables.MainWindowHeight = Integer.parseInt(input.split(": ")[1]);
 			Logger.log("Main > Settings > Window height", Integer.toString(Variables.MainWindowHeight));
+			break;
+		}
+		case "config": {
+			Logger.log("Main > Settings > external Config", "Found new entry for external config file: " + input.split(": ")[1]);
+			load(input.split(": ")[1]);
 			break;
 		}
 		default:
