@@ -130,6 +130,11 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
       <td>Jakob</td>
       <td>Gewinnbedingungsprüfung & Settings</td>
     </tr>
+    <tr>
+      <td>12.1.2023</td>
+      <td>hendrik</td>
+      <td>Gestalten der Grafiken (Symbole und Linien)</td>
+    </tr>
   </tbody>
 </table>
 
