@@ -1,6 +1,6 @@
 # Tic Tac Toe
-Wir wollen ein Java Tic-Tac-Toe-Spiel programmieren, welches einen Online Modus Über Firebase, einen lokalen Modus Über das Local Area Network (LAN) und einen Offline-Modus mit einer Tic-Tac-Toe-KI beinhaltet. Dabei wollen wir auf ein nutzerfreundliches Layout und nette Grafiken achten. <br>
-Einen Chat für den Online- und lokalen Modus und ein Ranking System für jeden, der seine Spiele veröffentlicht (nur im Online-Modus verfügbar). <br>
+Wir wollen ein Java Tic-Tac-Toe-Spiel programmieren, welches einen Online Modus ueber Firebase, einen lokalen Modus Über das Local Area Network (LAN) und einen Offline-Modus mit einer Tic-Tac-Toe-KI beinhaltet. Dabei wollen wir auf ein nutzerfreundliches Layout und nette Grafiken achten. <br>
+Einen Chat fuer den Online- und lokalen Modus und ein Ranking System für jeden, der seine Spiele veroeffentlicht (nur im Online-Modus verfuegbar). <br>
 (Die Datenspeicherung wird mit Hilfe von Firebase vonstattengehen. - scrubbed hendrik didn't get it to work) <br>
 Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
 
@@ -23,12 +23,12 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
     <tr>
       <td>29+30.9.2022</td>
       <td>Jakob</td>
-      <td>Kleine Änderungen und das Einrichten eines Maven projects, so dass Hendrik Bibliotheken einbinden kann</td>
+      <td>Kleine Aenderungen und das Einrichten eines Maven projects, so dass Hendrik Bibliotheken einbinden kann</td>
     </tr>
     <tr>
       <td>1.10.2022</td>
       <td>Jakob</td>
-      <td>Kleine Änderungen am Logger und den READMEs sowie einzelne Tests</td>
+      <td>Kleine Aenderungen am Logger und den READMEs sowie einzelne Tests</td>
     </tr>
     <tr>
       <td>9.10.2022</td>
@@ -83,7 +83,7 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
     <tr>
       <td>17.11.2022</td>
       <td>Hendrik</td>
-      <td>Gibt firebase auf - wird frontend Übernehmen</td>
+      <td>Gibt firebase auf - wird frontend Uebernehmen</td>
     </tr>
     <tr>
       <td>24.11.2022</td>
@@ -98,12 +98,12 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
     <tr>
       <td>1.12.2022</td>
       <td>Jakob</td>
-      <td>GitHub Präsi, die sehr viel zu sagen hatte + Git Einrichtung in Eclipse Anleitung auf GitHub</td>
+      <td>GitHub Praesi, die sehr viel zu sagen hatte + Git Einrichtung in Eclipse Anleitung auf GitHub</td>
     </tr>
     <tr>
       <td>1.12.2022</td>
       <td>Hendrik</td>
-      <td>Zuhören</td>
+      <td>Zuhoeren</td>
     </tr>
     <tr>
       <td>15.12.2022</td>
@@ -133,6 +133,6 @@ Wir wollen auch mehrere Versionen von Tic-Tac-Toe einbauen. <br>
   </tbody>
 </table>
 
-### Hinweise für das Programmieren
+### Hinweise fuer das Programmieren
 Zum Loggen von Dingen bitte immer Logger.log("Pfad", "Aktion"); verwenden!<br>
 Please don't upload Logs to the repository outside from issues
